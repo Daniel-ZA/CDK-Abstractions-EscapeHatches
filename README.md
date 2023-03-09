@@ -7,6 +7,12 @@ CDK Training Material for Abstractions and Escape hatches concepts
 * Understand usage of Escape/Unescape hatches to modify underlying properties otherwise not present in the higher level constructs
 * Understand usage of raw overrides to modify a construct's properties
 
+## Prerequisites:
+
+* Setup VSCode or IDE for deploying CDK
+* Recommended: Installing CDK Snippets extension in VsCode (if you have)
+* CDK Version 2.x
+
 ## Abstraction
   
 [Abstraction](https://www.educative.io/answers/what-is-abstraction-in-programming) is used to hide background details or any unnecessary implementation about the data so that users only see the required information.
