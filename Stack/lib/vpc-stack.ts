@@ -18,27 +18,5 @@ export class VpcStack extends cdk.Stack {
       ipAddresses: IpAddresses.cidr('10.0.0.0/16'),
       availabilityZones: ["us-east-1a"]
     })
-
-    // for (const child in vpc.node.findAll()) {
-    //     const obj = vpc.node.findAll()[child].node.id
-    //     console.log(obj)
-    // }
-
-    // const L2PublicSubnet = vpc.node.findChild("PublicSubnet1")
-
-    // for (const child in L2PublicSubnet.node.findAll()) {
-    //   const obj = L2PublicSubnet.node.findAll()[child].node.id
-    //   console.log(obj)
-    // }
-
-
-    // var L1Route = L2PublicSubnet.node.findChild("DefaultRoute") as ec2.CfnRoute
-
-    // L1Route.destinationCidrBlock = '1.0.0.0/0'
-
-    // var CfnVPC = vpc.node.defaultChild as ec2.CfnVPC
-
-    // CfnVPC.addOverride('Properties.')
-
   }
 }
