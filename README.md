@@ -9,9 +9,9 @@ CDK Training Material for Abstractions and Escape hatches concepts
 
 ## Abstraction
   
-Abstraction is used to hide background details or any unnecessary implementation about the data so that users only see the required information [1].
+[Abstraction](https://www.educative.io/answers/what-is-abstraction-in-programming) is used to hide background details or any unnecessary implementation about the data so that users only see the required information.
 
-> A prime example of abstraction is the VPC construct [2]:
+> A prime example of abstraction is the [VPC](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ec2.Vpc.html) construct:
 
     const vpc = new ec2.Vpc(this, 'TheVPC', {
       ipAddresses: IpAddresses.cidr('10.0.0.0/16'),
@@ -25,7 +25,7 @@ Abstraction is used to hide background details or any unnecessary implementation
   * These constructs can be identified via a name beginning with "Cfn," so they are also referred to as "Cfn constructs." 
   * If a resource exists in AWS CloudFormation, it exists in the CDK as a L1 construct.
 
-> Example using CFNVPC construct [3]
+> Example using [CfnVPC](https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.CfnVPC.html) construct
 ```
     const vpc = new ec2.CfnVPC(this, 'TheVPC', {
       attrCidrBlock: IpAddresses.cidr('10.0.0.0/16'),
@@ -37,7 +37,7 @@ Abstraction is used to hide background details or any unnecessary implementation
   * Define additional supporting resources, such as IAM policies, Amazon SNS topics, or AWS KMS keys. 
   * Provide sensible defaults, best practice security policies, and ergonomic.
 
-> Example using PublicSubnet [4] construct:
+> Example using [PublicSubnet](https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.PublicSubnet.html) construct:
 
 ```
 const publicSubnet = new ec2.PublicSubnet(this, 'MyPublicSubnet', {
@@ -67,7 +67,7 @@ const publicSubnet = new ec2.PublicSubnet(this, 'MyPublicSubnet', {
 
 * Since higher level constructs are at a higher level of abstraction, some properties otherwise present in a L1 construct (CFN) are most of the time hidden.
 
-> Example Bucket L2 [5] construct vs AWS::S3::Bucket [6]:
+> Example [Bucket L2 ](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.Bucket.html) construct vs  [AWS::S3::Bucket](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html):
 
 ```
     const myBucket = new bucket.Bucket(this, 'Bucket', {
@@ -97,7 +97,7 @@ If an L2 construct is missing a feature or you're trying to work around an issue
 
 The basic approach to get access to the L1 class is to use construct.node.defaultChild (Python: default_child), cast it to the right type (if necessary), and modify its properties. Again, let's take the example of a Bucket.
 
-> TypeCast L2 construct to a L1 Construct CfnBucket [7]
+> TypeCast L2 construct to a L1 Construct [CfnBucket](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.CfnBucket.html)
 
 ```
     // Node represents the construct node in the scope tree. The `defaultChild` method returns the child construct
