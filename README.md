@@ -132,9 +132,15 @@ Provides the capability to go up an abstraction level.
 Resources:
 
 [1] What is abstraction - https://www.educative.io/answers/what-is-abstraction-in-programming
+
 [2] VPC - https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ec2.Vpc.html
+
 [3] CFNVPC - https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.CfnVPC.html
+
 [4] PublicSubnet - https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.PublicSubnet.html
+
 [5] Bucket - https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.Bucket.html
+
 [6] AWS::S3::Bucket - https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html
+
 [7] CfnBucket - https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.CfnBucket.html
