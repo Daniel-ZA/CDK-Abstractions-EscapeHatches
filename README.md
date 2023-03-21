@@ -3,9 +3,9 @@ CDK Training Material for Abstractions and Escape hatches concepts
 
 ## Learning Outcomes
 
-* Understand varying levels of abstraction for CDK constructs
-* Understand usage of Escape/Unescape hatches to modify underlying properties otherwise not present in the higher level constructs
-* Understand usage of raw overrides to modify a construct's properties
+* Illustrate varying levels of abstraction for CDK constructs
+* Apply usage of Escape/Unescape hatches to modify underlying properties otherwise not present in the higher level constructs
+* Demonstrate usage of raw overrides to modify a construct's properties
 
 ## Prerequisites:
 
