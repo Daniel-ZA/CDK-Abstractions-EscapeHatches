@@ -210,6 +210,12 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 
 &nbsp;
 
+## Learning Outcomes
+
+* Illustrate varying levels of abstraction for CDK constructs
+* Apply usage of Escape/Unescape hatches to modify underlying properties otherwise not present in the higher level constructs
+* Demonstrate usage of raw overrides to modify a construct's properties
+
 Resources:
 
 [1] What is abstraction - https://www.educative.io/answers/what-is-abstraction-in-programming
