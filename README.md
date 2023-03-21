@@ -208,7 +208,11 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 
 **Most concepts and definitions above are taken from the official AWS [Abstractions and escape hatches](https://docs.aws.amazon.com/cdk/v2/guide/cfn_layer.html) documentation.**
 
-&nbsp;
+
+## Helpful Resources
+
+* [What are Constructs in AWS CDK - Complete Guide](https://bobbyhadz.com/blog/cdk-constructs-tutorial)
+* [How to use escape hatches in AWS CDK](https://bobbyhadz.com/blog/escape-hatch-aws-cdk)
 
 ## Learning Outcomes
 
