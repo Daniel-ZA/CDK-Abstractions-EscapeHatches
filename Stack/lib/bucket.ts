@@ -4,6 +4,7 @@ import * as sqs from 'aws-cdk-lib/aws-sqs';
 import * as s3 from 'aws-cdk-lib/aws-s3'
 import { S3 } from 'aws-cdk-lib/aws-ses-actions';
 import { CfnBucket } from 'aws-cdk-lib/aws-s3';
+import * as bucket from 'aws-cdk-lib/aws-s3'
 
 export class S3Stack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
