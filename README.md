@@ -198,8 +198,8 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
     // Using Raw override to override property using `addOverride`
     L1Route.addOverride('Property.DestinationCidrBlock', '2.0.0.0/0')
 
-    // Delete a Property Tag at index 0.
-    L1Route.addPropertyDeletionOverride('Tags.0')
+    // Delete Route
+    L1Route.addPropertyDeletionOverride('DestinationCidrBlock')
 ```
 
 > Note: using `addPropertyOverride` you don't have to specify the 'Property'.
