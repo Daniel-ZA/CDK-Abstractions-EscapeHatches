@@ -227,7 +227,7 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 
 ## Survey
 
-https://survey.fieldsense.whs.amazon.dev/survey/d9fad38f-b467-4b12-8e24-6a2862475722
+https://survey.fieldsense.whs.amazon.dev/survey/483fdc89-9973-4b48-8ef6-62bd80129ced
 
 Resources:
 
