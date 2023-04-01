@@ -11,7 +11,10 @@ CDK Training Material for Abstractions and Escape hatches concepts
 
 * Setup VSCode or IDE for deploying CDK
 * Recommended: Installing CDK Snippets extension in VsCode (if you have)
-* CDK Version 2.x
+* Clone this repository
+* CDK Version 2.60.0 
+  
+> Note: The stack in the example below uses the `2.60.0` CDK library version, if you have a version different than this, you can install `npx` with `npm install -g npx`. Once installed you can run a local CLI 2.60.0 version for this project by prefixing the cdk commands with `npx aws-cdk@2.60.0` without changing the global version of your CDK CLI. If you wish to change it globally anyways just run `npm install -g aws-cdk@2.60.0`. For more information regarding the installation check [here](https://docs.aws.amazon.com/cdk/v2/guide/cli.html).
 
 ## Abstraction
   
