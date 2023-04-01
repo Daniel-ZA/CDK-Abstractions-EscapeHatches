@@ -218,6 +218,7 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 
 ## Helpful Resources
 
+* Clive's Kumo [Article](https://kumo-knowledge-ui-iad-prod.amazon.com/view/article_32892) using EKS cluster
 * [What are Constructs in AWS CDK - Complete Guide](https://bobbyhadz.com/blog/cdk-constructs-tutorial)
 * [How to use escape hatches in AWS CDK](https://bobbyhadz.com/blog/escape-hatch-aws-cdk)
 
