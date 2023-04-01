@@ -220,6 +220,10 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 * Apply usage of Escape/Unescape hatches to modify underlying properties otherwise not present in the higher level constructs
 * Demonstrate usage of raw overrides to modify a construct's properties
 
+## Survey
+
+https://survey.fieldsense.whs.amazon.dev/survey/d9fad38f-b467-4b12-8e24-6a2862475722
+
 Resources:
 
 [1] What is abstraction - https://www.educative.io/answers/what-is-abstraction-in-programming
