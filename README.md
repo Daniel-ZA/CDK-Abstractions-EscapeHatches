@@ -173,7 +173,7 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 ### UnEscape Hatches
 
 * Provides the capability to go up an abstraction level.
-* Helpful when you want to use convenience methods like .addObjectCreatedNotification() that aren't available on the L1 construct.
+* Helpful when you want to use convenience methods like [.enableEventBridgeNotification()](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.Bucket.html#enablewbreventwbrbridgewbrnotification) that aren't available on the L1 construct.
 
 ```
     const CfnBucket = new s3.CfnBucket(this, 'MyBucket', {
@@ -181,7 +181,7 @@ The basic approach to get access to the L1 class is to use [construct.node.defau
 
     const l2Bucket = s3.Bucket.fromCfnBucket(CfnBucket)
 
-    l2Bucket.addObjectCreatedNotification(...)
+    l2Bucket.enableEventBridgeNotification()
 ```
 
 ### Raw overrides
