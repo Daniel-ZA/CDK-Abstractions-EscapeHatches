@@ -123,7 +123,13 @@ Escape hatches allow you to "break out" of the construct model to either move to
 
 If an L2 construct is missing a feature or you're trying to work around an issue, you can modify the L1 construct that's encapsulated by the L2 construct.
 
-The basic approach to get access to the L1 class is to use [construct.node.defaultChild](https://docs.aws.amazon.com/cdk/api/v2/docs/constructs.Node.html#defaultchild) (Python: default_child), cast it to the right type (if necessary), and modify its properties. Again, let's take the example of a Bucket.
+The basic approach to get access to the L1 class is to use [construct.node.defaultChild](https://docs.aws.amazon.com/cdk/api/v2/docs/constructs.Node.html#defaultchild) (Python: default_child), cast it to the right type (if necessary), and modify its properties. 
+
+```
+console.log(myBucket.node.defaultChild)
+```
+
+Again, let's take the example of a Bucket.
 
 > TypeCast L2 construct to a L1 Construct [CfnBucket](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.CfnBucket.html)
 
