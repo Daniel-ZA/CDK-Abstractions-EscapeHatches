@@ -9,7 +9,10 @@ CDK Training Material for Abstractions and Escape hatches concepts
 
 ## Prerequisites:
 
-* Setup VSCode or IDE for deploying CDK
+* Setup VSCode or IDE for deploying CDK 
+  
+> If you are using VSCode, you can install the CDK Snippets extension to help with auto-completion for TypeScript projects. Likewise install CDK Snippets for Python for python projects.
+
 * Recommended: Installing CDK Snippets extension in VsCode (if you have)
 * Clone this repository
 * CDK Version 2.60.0 
