@@ -176,7 +176,7 @@ Again, let's take the example of a Bucket.
     L1Route.destinationCidrBlock = '1.0.0.0/0'
 ```
 
-> L3 VPC -> L2 PublicSubnet -> L3 [CfnRoute](https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.CfnRoute.html) OR [AWS::EC2::Route](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html
+> L3 VPC -> L2 PublicSubnet -> L1 [CfnRoute](https://docs.aws.amazon.com/cdk/api/v1/docs/@aws-cdk_aws-ec2.CfnRoute.html) OR [AWS::EC2::Route](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html
 )
 
 ### UnEscape Hatches
